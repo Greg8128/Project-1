@@ -28,7 +28,7 @@ public class TreeMaker {
 
             System.out.println("Family Size : " +family.size() + '\n');
             System.out.println("Searchable Family Members : " + '\n' + family);
-            for (int i = 0 ; i<100000000 ; i++) {
+            while(true) {
                 /* the following lines of code ask the user to input the name of
                  * their desired family member searchPerson returns the person if
                  * they exist, and null if not found*/
