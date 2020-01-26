@@ -14,7 +14,7 @@ public class TreeMaker {
     public static void main(String args[]) {
         try {
             /* The following block of code asks for a filePath to their family Tree .dat*/
-            System.out.println("WARNING : THIS PROGRAM WILL RUN 1000000000 TIMES" + '\n'
+            System.out.println("WARNING : THIS PROGRAM WILL RUN UNTIL IT IS TERMINATED" + '\n'
                     + "Remeber to Terminate it" + '\n');
             System.out.println("Enter File Path");
             InputStreamReader isr = new InputStreamReader(System.in);
